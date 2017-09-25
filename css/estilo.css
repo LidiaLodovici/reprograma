@@ -1,0 +1,180 @@
+
+/** {
+    margin: 0;
+    padding: 0;
+}*/
+
+body{
+    margin:0;
+    padding: 0;
+    background-color:lightgray;
+    
+}
+
+main{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+
+/* HEADER*/
+
+.header{
+    /*font-family: 'Khula', sans-serif;*/
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 18px;
+    
+    background-color: #ff99ff;
+    text-align: center;
+    padding:  0;
+    color: black;
+    border-bottom: black 7px solid;
+   
+   
+
+}
+
+.imagem-perfil{
+    width:150px;
+    border-radius: 100px;
+  
+}
+
+.header h1{
+    margin-bottom: 0;
+    font-family: 'Lobster', cursive;
+}
+
+.header h2{
+    margin: 5px;
+    font-size: 16px;
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+    /*herdar cor do pai*/
+}
+
+a:hover{
+    color: gray;
+}
+
+
+.navegacao{
+    /*width: 75%;*/
+    margin-top:50px;
+    margin-bottom: 0;
+    
+}
+
+
+
+.navegacao-list-item{
+    font-size: 18px;
+    display: inline;
+    margin: 0 28px; 
+    /* primeiro valor (em cima e embaixo); segundo valor (esquerda e direita)*/
+}
+
+ul{
+    padding: 0;
+}
+
+/*CONTEUDO*/
+
+section{
+    display: flex;
+    padding: 20px;
+    text-align: justify;
+    border-bottom: 1px  solid gray;
+    margin: 0 auto 0 auto;
+  
+
+}
+
+#objetivo{
+    padding: 70px 20px 20px 20px;
+}
+
+section h3{
+  
+    /*width:35%;*/
+    /*min-width: 350px;*/
+   
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 16px;
+   
+    
+   
+   
+
+}
+
+h4{
+    margin-top:19px;
+    margin-left: 35px;
+    margin-bottom:0;
+    font-family: 'Quattrocento', serif;
+    
+}
+
+h5{
+    margin-left: 35px;
+    margin-top:0;
+    margin-bottom: 0;
+    font-family: 'Quattrocento', serif;
+}
+
+p{
+    margin-top:19px;
+    margin-left: 35px;
+    font-family: 'Quattrocento', serif;
+  
+}
+
+p.local{
+    margin-top: 0;
+    
+}
+
+
+
+
+
+
+
+
+
+.cursos{
+    border-bottom: none;
+}
+
+
+
+/*FOOTER*/
+footer{
+    background: #ff99ff;
+    color:black;
+  
+    text-align: center;
+    /*height: 10%;*/
+    padding:20px;
+    margin-top:0;
+    /*border-top: black 1px solid;*/
+       
+}
+
+
+#whats{
+    border-radius: 100%;
+    /*margin: 19px 4px 0 4px;*/
+   
+}
